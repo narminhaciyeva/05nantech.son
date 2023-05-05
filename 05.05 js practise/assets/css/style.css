@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(https://www.nantech.az/img/sign.svg);
+background-position: center;
+background-size: cover;
+text-align: center;
+width: 100%;
+height: 100vh;
+background:transparent
+
+}
+.insert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.title{
+    color:rgb(241, 21, 21);
+    
+}
+span{
+    color:dodgerblue;
+}
+
+ .insert1 {
+    align-items: center;
+    margin: 30px 0px;
+    padding: 50px 30px;
+    box-shadow: #a71919 -2px 4px 10px 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    transition:.4s;
+    /* width: 200px; */
+width: 400px;
+height: 60%;
+}
+/* 
+.insert1{
+    display: flex;
+    justify-content: center;
+} */
+.insert1 input{
+margin-top: 10%;
+width: 80%;
+height: 15%;
+border: 1px solid;
+border-radius: 10px;
+text-align: center;
+}
+.insert1{
+    position: relative;
+}
+.insert1 i{
+position: absolute;
+right: 80px;
+top: 200px;
+}
+ h1{
+    font-size: 40px;
+}
+.insert1 button{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border: 1px solid #ed2a26;
+    background-color: #ed2a26;
+    border-radius: 10px;
+}
+
+.insert1 button p{
+    color: white;
+}
+
+
